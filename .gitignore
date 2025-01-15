@@ -1,0 +1,18 @@
+# Telegram session files
+*.session
+*.session-journal
+
+# Already included from before
+.env
+__pycache__/
+*.pyc
+
+# Other common files to ignore
+.vscode/
+.idea/
+*.logok
+
+config.py
+telegram_media/*
+telegram_group_media/*
+*.md
